@@ -1,0 +1,31 @@
+    1  git clone https://github.com/manikcloud/Jenkins-cicd.git
+    2  cd Jenkins-cicd
+    3  git switch create_ec2_tf 
+    4  chmod 755 jenkins-installation-ubuntu.sh
+    5  sh jenkins-installation-ubuntu.sh
+    6  cat /var/lib/jenkins/secrets/initialAdminPassword
+    7  sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+    8  mvn --version
+    9  apt install maven
+   10  sudo apt install maven
+   11  mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=my-app -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false
+   12  cd my-app/
+   13  tree
+   14  sudo apt install tree
+   15  tree
+   16  cd my-app
+   17  mvn package
+   18  cd ..
+   19  ssh-keygen
+   20  cd ~/.shh/
+   21  cd ~/.ssh/
+   22  ll
+   23  cat id_rsa.pub 
+   24  git clone git@github.com:Ikaros-weiq/Jenkins-class.git
+   25  ll
+   26  cd Jenkins-class/
+   27  ll
+   28  git status
+   29  touch history.txt
+   30  ll
+   31  history > history.txt 
